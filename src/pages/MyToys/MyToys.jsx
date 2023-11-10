@@ -12,7 +12,7 @@ const MyToys = () => {
 
   useEffect(() => {
     fetch(
-      `https://assignment-11-server-three-gamma.vercel.app/mytoys/${user?.email}`
+      `https://mixxstore.onrender.com/mytoys/${user?.email}`
     )
       .then((res) => res.json())
       .then((data) => {

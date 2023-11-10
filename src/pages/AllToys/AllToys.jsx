@@ -10,7 +10,7 @@ const AllToys = () => {
     const [searchQuery, setSearchQuery] = useState("");
 
     useEffect(() => {
-        fetch("https://assignment-11-server-three-gamma.vercel.app/alltoys", {
+        fetch("https://mixxstore.onrender.com/alltoys", {
           params: { limit: 20 },
         })
           .then((res) => res.json())
@@ -19,7 +19,7 @@ const AllToys = () => {
 
     const handleSearch = () => {
         fetch(
-          `https://assignment-11-server-three-gamma.vercel.app/toysearch/${searchQuery}`
+          `https://mixxstore.onrender.com/toysearch/${searchQuery}`
         )
           .then((res) => res.json())
           .then((data) => setToys(data));
@@ -32,7 +32,7 @@ const AllToys = () => {
       if (isLoggedIn) {
         // Redirect to the Details Page
         navigate(
-          `https://assignment-11-server-three-gamma.vercel.app/alltoys/${_id}`
+          `https://mixxstore.onrender.com/alltoys/${_id}`
         );
       } else {
         // Redirect to the Login Page

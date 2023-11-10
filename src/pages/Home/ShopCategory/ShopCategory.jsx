@@ -139,7 +139,7 @@ const ShopCategory = () => {
 
     const [toys, setToys] = useState([]);
     useEffect(() => {
-      fetch("https://assignment-11-server-three-gamma.vercel.app/alltoys")
+      fetch("https://mixxstore.onrender.com/alltoys")
         .then((res) => res.json())
         .then((data) => setToys(data));
     }, []);

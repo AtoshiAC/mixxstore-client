@@ -16,7 +16,7 @@ const AddToys = () => {
       formState: { errors },
     } = useForm();
     const onSubmit = (data) => {
-     fetch("https://assignment-11-server-three-gamma.vercel.app/addtoy", {
+     fetch("https://mixxstore.onrender.com/addtoy", {
        method: "POST",
        headers: {
          "Content-Type": "application/json",

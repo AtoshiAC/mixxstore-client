@@ -48,40 +48,6 @@ const NavBar = () => {
         </li>
       )}
     </>
-    // <>
-    //   <li>
-    //     <Link to="/">Home</Link>{" "}
-    //   </li>
-    //   <li>
-    //     {" "}
-    //     <Link to="/alltoys">All Toys</Link>{" "}
-    //   </li>
-
-    //   {user?.email ? (
-    //   <>
-    //     <li>
-    //       <Link to="/mytoys">My Toys</Link>
-    //     </li>
-    //     <li>
-    //       <Link to="/addtoy">Add A Toys</Link>
-    //     </li>
-    //     <li>
-    //       {" "}
-    //       <button onClick={handleLogOut}>Log out</button>{" "}
-    //     </li>
-    //   </>
-    //   ) : (
-    //   <li>
-    //     {" "}
-    //     <Link to="/login">Login</Link>{" "}
-    //   </li>
-    //   )}
-
-    //   <li>
-    //     {" "}
-    //     <Link to="/blogs">Blogs</Link>{" "}
-    //   </li>
-    // </>
   );
   return (
     <div className="navbar bg-base-100 h-28 mb-2">
