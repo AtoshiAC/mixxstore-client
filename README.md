@@ -7,6 +7,6 @@ MixxStore is a React-based project that serves as an online shop specializing in
 * Product Reviews: Read and write reviews for products, enabling users to make informed purchasing decisions.
 * Responsive Design: Enjoy a consistent and user-friendly experience across various devices and screen sizes.
 ### Live Site ###
-The live version of MixxStore can be accessed here -------
+The live version of MixxStore can be accessed here https://mixxstore-b5e0e.web.app
 ## License ##
 MixxStore is released under the MIT License. Feel free to use, modify, and distribute the code as per the terms of this license.
